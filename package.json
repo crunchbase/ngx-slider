@@ -1,6 +1,6 @@
 {
-  "name": "ng5-slider",
-  "version": "1.2.4",
+  "name": "ngx-slider",
+  "version": "1.0.0",
   "private": true,
   "description": "Self-contained, mobile friendly slider component for Angular 5+ based on angularjs-slider",
   "keywords": [
@@ -9,23 +9,16 @@
     "component",
     "angular",
     "ng",
-    "angular2",
-    "ng2",
-    "angular4",
-    "ng4",
-    "angular5",
-    "ng5"
+    "angular9",
+    "ngx"
   ],
   "author": "Piotr Dziwinski",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular-slider/ng5-slider.git"
+    "url": "https://github.com/crunchbase/ngx-slider.git"
   },
-  "bugs": {
-    "url": "https://github.com/angular-slider/ng5-slider/issues"
-  },
-  "homepage": "https://github.com/angular-slider/ng5-slider#readme",
+  "homepage": "https://github.com/crunchbase/ngx-slider#readme",
   "scripts": {
     "prepare": "npm run prepare:lib && npm run prepare:demo-app",
     "prepare:lib": "node scripts/generate-lib-files.js",
