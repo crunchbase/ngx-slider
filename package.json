@@ -1,8 +1,8 @@
 {
   "name": "ngx-slider",
-  "version": "1.0.0",
-  "publishConfig":{
-      "registry": "http://artifactory5.crunchbase.io/artifactory/api/npm/npm-local/"
+  "version": "1.1.0",
+  "publishConfig": {
+    "registry": "http://artifactory5.crunchbase.io/artifactory/api/npm/npm-local/"
   },
   "description": "Self-contained, mobile friendly slider component for Angular 5+ based on angularjs-slider",
   "keywords": [
@@ -37,27 +37,26 @@
     "ci": "npm run test:once && npm run e2e && npm run lint && npm run build:lib && npm run build:demo-app"
   },
   "dependencies": {
-    "@angular/animations": "9.1.4",
-    "@angular/common": "^9.1.4",
-    "@angular/compiler": "9.1.4",
-    "@angular/core": "9.1.4",
-    "@angular/forms": "9.1.4",
-    "@angular/platform-browser": "9.1.4",
-    "@angular/platform-browser-dynamic": "9.1.4",
-    "@angular/router": "9.1.4",
+    "@angular/animations": "^9.1.9",
+    "@angular/common": "^9.1.9",
+    "@angular/compiler": "^9.1.9",
+    "@angular/core": "^9.1.9",
+    "@angular/forms": "^9.1.9",
+    "@angular/platform-browser": "^9.1.9",
+    "@angular/platform-browser-dynamic": "^9.1.9",
+    "@angular/router": "^9.1.9",
     "core-js": "^2.4.1",
     "detect-passive-events": "^1.0.4",
-    "rxjs": "6.5.5",
-    "rxjs-compat": "^6.5.2",
+    "rxjs": "^6.5.5",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.901.4",
-    "@angular/cli": "^9.1.4",
-    "@angular/compiler-cli": "^9.1.4",
-    "@angular/language-service": "^9.1.4",
-    "@angular/localize": "^9.1.4",
+    "@angular-devkit/build-angular": "~0.901.7",
+    "@angular/cli": "^9.1.7",
+    "@angular/compiler-cli": "^9.1.9",
+    "@angular/language-service": "^9.1.9",
+    "@angular/localize": "^9.1.9",
     "@ng-bootstrap/ng-bootstrap": "^6.1.0",
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
