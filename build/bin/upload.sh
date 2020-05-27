@@ -21,5 +21,7 @@ ${SCOPE}:registry=http://artifactory5.crunchbase.io/artifactory/api/npm/npm-loca
 //artifactory5.crunchbase.io/artifactory/api/npm/npm-local/:always-auth=true
 EOF
 
+npm run build
+cd dist/ng5-slider
 npm publish --registry http://artifactory5.crunchbase.io/artifactory/api/npm/npm-local/
 
