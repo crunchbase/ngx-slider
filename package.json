@@ -1,7 +1,9 @@
 {
   "name": "ngx-slider",
   "version": "1.0.0",
-  "private": true,
+  "publishConfig":{
+      "registry": "http://artifactory5.crunchbase.io/artifactory/api/npm/npm-local/"
+  },
   "description": "Self-contained, mobile friendly slider component for Angular 5+ based on angularjs-slider",
   "keywords": [
     "slider",
