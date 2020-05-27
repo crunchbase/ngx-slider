@@ -1,5 +1,5 @@
 #!/bin/bash
-set -xe
+set -e
 
 SCOPE="@crunchbase"
 EMAIL="ci@crunchbase.com"
