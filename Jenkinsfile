@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    environment {
+        ghprbPullTitle = "${env.CHANGE_TITLE ? env.CHANGE_TITLE : ''}"
+    }
 
     stages {
         stage("Build and Deploy") {
